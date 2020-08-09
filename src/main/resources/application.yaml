@@ -1,0 +1,39 @@
+
+server:
+  port: 8080
+  servlet:
+#    path: "*.do"
+    path: /
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 971214
+    url: jdbc:mysql:///db2?serverTimezone=UTC
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+#  type-aliases-package: cn.case1.pojo
+
+#集合配置
+city:
+  - shanghai
+  - beijing
+
+#对象集合
+student:
+  - name: jason
+    age: 18
+  - name: mike
+    age: 10
+
+map:
+  key1: val1
+  key2: val2
+
+name: jason
+logging:
+  level:
+    cn: debug

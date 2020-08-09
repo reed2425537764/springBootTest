@@ -1,3 +1,4 @@
+/*
 package cn.case1.mapper;
 
 import cn.case1.pojo.User;
@@ -16,9 +17,11 @@ public class UserMapperTest {
 
     @Test
     public void fun() {
-        /*List<User> users = userMapper.selectAll();
-        users.forEach(System.out::println);*/
+List<User> users = userMapper.selectAll();
+        users.forEach(System.out::println);
+
         User user = userMapper.selectByPrimaryKey(4);
         System.out.println(user);
     }
 }
+*/

@@ -11,6 +11,9 @@ spring:
     username: root
     password: 971214
     url: jdbc:mysql:///db2?serverTimezone=UTC
+  profiles:
+    active:
+      - case3
 
 mybatis:
   configuration:

@@ -11,3 +11,5 @@ spring learning
 20200815 case4 动态读取配置文件
 ###
 20200815 case5 @Profile
+###
+20200815 case6 条件化配置bean 自定义条件 和 springboot提供的条件

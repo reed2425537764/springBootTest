@@ -13,3 +13,5 @@ spring learning
 20200815 case5 @Profile
 ###
 20200815 case6 条件化配置bean 自定义条件 和 springboot提供的条件
+###
+20200815 case7 @Enable*工作原理  ImportSelector和ImportBeanDefinitionRegistrar接口

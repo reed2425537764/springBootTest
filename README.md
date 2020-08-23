@@ -15,3 +15,5 @@ spring learning
 20200815 case6 条件化配置bean 自定义条件 和 springboot提供的条件
 ###
 20200815 case7 @Enable*工作原理  ImportSelector和ImportBeanDefinitionRegistrar接口
+###
+20200823 case8 @EnableAutoConfiguration详解  自动配置原理  spring.factories配置文件是自动配置的基础

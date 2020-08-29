@@ -1,3 +1,6 @@
 org.springframework.boot.env.EnvironmentPostProcessor=cn.case4.MyEnvironmentPostProcessor
 #·½·¨¶þ
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=cn.case1.Case1Config,cn.case1.Cat
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=cn.case1.Case1Config,cn.case1.Cat,cn.case10.MyAutoConfig
+
+#case10
+org.springframework.context.ApplicationContextInitializer=cn.case10.MyApplicationContextInitializer

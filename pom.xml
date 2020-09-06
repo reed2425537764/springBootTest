@@ -74,6 +74,11 @@
         </dependency>
 
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>com.springBootTest</groupId>
             <artifactId>springBootTestAssist</artifactId>
             <version>0.0.1-SNAPSHOT</version>

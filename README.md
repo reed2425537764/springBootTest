@@ -23,3 +23,5 @@ spring learning
 20200829 case10 springboot扩展分析   ApplicationContextInitializer CommandLineRunner ApplicationRunner等
 ###
 20200906 case11 springboot aop 
+###
+20200912 case12 xxx-spring-boot-start 两种方法启用自动配置(spring.factories @Enablexxx(@Import))
